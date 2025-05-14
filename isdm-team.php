@@ -218,10 +218,6 @@
         <!-- main-content end -->
 
 
-        <!-- main-footer -->
-        <?php include('includes/footer.php') ?>
-        <!-- main-footer end -->
-
 
 
         <!--Scroll to top-->
