@@ -37,26 +37,25 @@
                                 <ul class="navigation clearfix">
                                     <li class="current"><a href="isdm-team">ISDM Team</a>
                                     </li> 
-                                    <li class="dropdown"><a href="#">Organisation Scientifique</a>
+                                    <li class=""><a href="#">Organisation scientifique</a>
                                         <ul>
-                                            <li><a href="#">Département Maths Info</a></li>
-                                            <li><a href="#">Département IA</a></li>
+                                            <li><a href="#">DMI</a></li>
+                                            <li><a href="#">LIA</a></li>
                                             
                                         </ul>
                                     </li> 
                                     <li class="dropdown"><a href="#">Master</a>
                                         <ul>
-                                            <li><a href="#">Faire son master a l'ISDM</a></li>
+                                            <li><a href="#">Faire son master à ISDM</a></li>
                                             <li><a href="#">Masters soutenus</a></li>
                                             <li><a href="#">Masters en cours</a></li>
                                         </ul>
                                     </li> 
                                     <li class="dropdown"><a href="#">Doctorat</a>
                                         <ul>
-                                            <li><a href="#">Faire sa thèse a l'ISDM</a></li>
+                                            <li><a href="#">Faire sa thèse à ISDM</a></li>
                                             <li><a href="#">Thèses soutenues</a></li>
                                             <li><a href="#">Thèses en cours</a></li>
-                                            <li><a href="#">Les écoles doctorales</a></li>
                                         </ul>
                                     </li> 
                                     <li class="dropdown"><a href="#">Découvir</a>

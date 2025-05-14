@@ -132,7 +132,8 @@
                                         <li><a href="#" class="">Intelligence Artificielle Urbaine</a></li>
                                         <li><a href="#" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
                                         <li><a href="#" class="">Systèmes durable et communication</a></li>
-                                        <li><a href="#" class="">Conçeption de Systèmes complexes et prise de décision</a></li>
+                                        <li> <a href="#">Aide à la décision multicritère</a> </li>
+                                        <li><a href="#" class="">Conception de Systèmes complexes et prise de décision</a></li>
                                         
                                         </ul>
                                     </div>
@@ -171,7 +172,7 @@
                                                 <a href="">
                                                   <h3><i class="icon-65"></i>  Dr Justin MOSKOLAI</h3>
                                                 </a>
-                                                <span>Directeur de l'equipe de recherche ISDM</span>
+                                                <span>Coordonateur de l'équipe de recherche ISDM</span>
                                             </li>
                                             
                                         </ul>
@@ -183,7 +184,7 @@
                             <div class="service-details-content">
                                 <div class="content-one mb_65">
                                     <div class="text-box mb_35">
-                                        <h2>Laboratoire d'Innovation Technologique Durable de l'Université de Douala</h2>
+                                        <h2>Équipe de recherche d'Innovation Technologique Durable de l'Université de Douala</h2>
                                         <!-- <p>Welcome to the Labout Rare Chemistry Research Documentation Center, a hub exploration & discovery in these realm of uncommon & extraordinary chemical phenomena. An magnanis aliqua.bands needs no occasion too be gifted and can be given as gifts whenever onewishes to.</p> -->
                                     </div>
                                     <?php $j=random_int(1,5); ?>
