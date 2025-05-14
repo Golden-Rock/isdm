@@ -26,10 +26,10 @@
 <link href="assets/css/nice-select.css" rel="stylesheet">
 <link href="assets/css/elpath.css" rel="stylesheet">
 <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
-<link href="assets/css/switcher-style.css" rel="stylesheet">
+<link href="assets/css/switcher-style.css?v=1" rel="stylesheet">
 <link href="assets/css/odometer.css" rel="stylesheet">
 <link href="assets/css/rtl.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/style.css?v=1" rel="stylesheet">
 <link href="assets/css/module-css/page-title.css" rel="stylesheet">
 <link href="assets/css/module-css/service-details.css" rel="stylesheet">
 <link href="assets/css/module-css/service-sidebar.css" rel="stylesheet">

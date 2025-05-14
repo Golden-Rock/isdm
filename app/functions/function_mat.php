@@ -57,41 +57,18 @@
 			$id .= array_rand($characters); 
 		}
 
-		$mat_specialite = $id;
-		$verif = $bdd -> query("SELECT mat_specialite FROM specialite WHERE mat_specialite = '$mat_specialite'");
+		$mat_member = $id;
+		$verif = $bdd -> query("SELECT mat_member FROM member WHERE mat_member = '$mat_member'");
 
 		if($verif -> rowCount() == 0)
-			return $mat_specialite;
+			return $mat_member;
 		else 
 			return genere_mat_img($size, $bdd);
 		
      }
 
 
-	 function genere_mat_recette($size, $bdd) //, $bdd
-     {
-         
-        //initialisation des caractères utilisés
-		$characters = array(0, 1, 2, 3, 5, 6, 7, 8, 9);
-		$id = 'RC';
-		//Génération du mot de passe
-		for ($i=0; $i < $size; $i++) { 
-			$id .= array_rand($characters); 
-		}
-
-		$mat_recette = $id;
-
-		//Vérification de l'existence du password dans la base de données
-		$verif = $bdd -> query("SELECT mat_recette FROM recette WHERE mat_recette = '$mat_recette'");
-		//Si on ne trouve aucune ligne correspondant au matricule généré on retourne le mot de passe généré
-		if($verif -> rowCount() == 0)
-			return $mat_recette;
-
-		//Sinon on relance la fonction : RECURSIVITE !!!
-		else 
-			return genere_mat_recette($size, $bdd);
-		
-     }
+	 
 
 	 function genere_mat_video($size, $bdd) //, $bdd
      {
