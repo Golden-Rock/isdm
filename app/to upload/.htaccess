@@ -1,0 +1,52 @@
+RewriteEngine On  
+    
+#authentification 
+   RewriteRule ^login$              login.php
+   RewriteRule ^register$           register.php
+   RewriteRule ^deconnexion$        deconnexion.php
+   RewriteRule ^settings$        settings.php
+
+#pages principales
+   RewriteRule ^home$               index.php
+   RewriteRule ^resultats$          get_result.php
+
+#user 
+  RewriteRule ^profil-user$         profil-user.php
+
+#isdm team
+   RewriteRule ^add_isdm_member$                           add_isdm_member.php 
+   RewriteRule ^all_isdm_team$                          all_isdm_team.php 
+   RewriteRule ^doctor_detail/([a-zA-Z0-9-]+)$        doctor_detail.php?mat=$1 
+
+   RewriteRule ^add_speciality$                       add_speciality.php
+   RewriteRule ^all_speciality$                       all_speciality.php
+
+#patient
+   RewriteRule ^all_patients$                          all_patients.php
+   RewriteRule ^detail_patient/([a-zA-Z0-9-]+)$       detail_patient.php?mat=$1
+
+#Appointment
+   RewriteRule ^book_appointment/([a-zA-Z0-9-]+)$       book_Appointment.php?id=$1
+   RewriteRule ^submission/([a-z0-9-]+)$                submission.detail.php?id=$1
+
+
+#premier lien de selection de la specialisation 
+   RewriteRule ^get_choice_spe$                     get_choice_spe.php 
+
+#Recette
+   RewriteRule ^add_recette$                        add_recette.php
+   RewriteRule ^all_recette$                        all_recette.php
+   RewriteRule ^detail_recette/([a-zA-Z0-9-]+)$     detail_recette.php?mat=$1
+   RewriteRule ^update_recette$                     update_recette.php
+   
+#Video sportive
+   RewriteRule ^add_video$                        add_video.php
+   RewriteRule ^all_video$                        all_video.php
+   RewriteRule ^update_video$                     update_video.php
+  
+#Categorie 
+   RewriteRule ^add_categorie$                        add_categorie.php
+   RewriteRule ^all_categorie$                        all_categorie.php
+   RewriteRule ^update_categorie$                     update_categorie.php
+
+

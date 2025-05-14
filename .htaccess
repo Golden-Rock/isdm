@@ -1,0 +1,7 @@
+RewriteEngine On  
+
+    RewriteRule ^home|index$                index.php
+    RewriteRule ^isdm-team$                isdm-team.php
+
+#isdm team 
+    RewriteRule ^isdm-team/([a-zA-Z0-9-]+)$       isdm-team.detail.php?mat=$1
