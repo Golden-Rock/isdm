@@ -31,15 +31,16 @@
                             <i class="icon-bar"></i>
                             <i class="icon-bar"></i>
                             <i class="icon-bar"></i>
-                        </div>
+                        </div> 
+                        
                         <nav class="main-menu navbar-expand-md navbar-light clearfix">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
                                     <li class="current"><a href="isdm-team">ISDM Team</a>
                                     </li> 
-                                    <li class=""><a href="#">Organisation scientifique</a>
+                                    <li class="dropdown"><a href="#">Organisation scientifique</a>
                                         <ul>
-                                            <li><a href="#">DMI</a></li>
+                                            <li ><a href="#">DMI ab</a></li>
                                             <li><a href="#">LIA</a></li>
                                             
                                         </ul>
