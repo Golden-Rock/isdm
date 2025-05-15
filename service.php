@@ -206,7 +206,6 @@
                                     </div>
                                     <?php $j=random_int(0,4); 
                                         $url = "images/".$id."/".$j.".jpg";
-                                        echo $url;
                                     ?>
 
                                     <figure class="image-box mb_35"><img src=<?php echo $url;?> alt=""></figure>
