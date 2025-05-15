@@ -1,4 +1,9 @@
-
+<?php
+    include('load_data.php');
+    var_dump($data[$i][$image]);
+    
+?>
+    
 <!DOCTYPE html>
 <html lang="en">
 
@@ -130,11 +135,11 @@
                                     </div>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="#" class="">Intelligence Artificielle Urbaine</a></li>
-                                        <li><a href="#" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
-                                        <li><a href="#" class="">Systèmes durable et communication</a></li>
-                                        <li> <a href="#">Aide à la décision multicritère</a> </li>
-                                        <li><a href="#" class="">Conception de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="service.php?id=0" class="">Intelligence Artificielle Urbaine</a></li>
+                                        <li><a href="service.php?id=1" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
+                                        <li><a href="service.php?id=2" class="">Systèmes durable et communication</a></li>
+                                        <li><a href="service.php?id=3" class="">Conçeption de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="service.php?id=4" class="">jumeaux numériques et process mining</a></li>
                                         
                                         </ul>
                                     </div>
@@ -173,7 +178,7 @@
                                                 <a href="">
                                                   <h3><i class="icon-65"></i>  Dr Justin MOSKOLAI</h3>
                                                 </a>
-                                                <span>Coordonateur de l'équipe de recherche ISDM</span>
+                                                <span>Directeur de l'equipe de recherche ISDM</span>
                                             </li>
                                             
                                         </ul>
@@ -185,19 +190,14 @@
                             <div class="service-details-content">
                                 <div class="content-one mb_65">
                                     <div class="text-box mb_35">
-                                        <h2>Équipe de recherche d'Innovation Technologique Durable de l'Université de Douala</h2>
+                                        <h2><?= $titre ?></h2>
                                         <!-- <p>Welcome to the Labout Rare Chemistry Research Documentation Center, a hub exploration & discovery in these realm of uncommon & extraordinary chemical phenomena. An magnanis aliqua.bands needs no occasion too be gifted and can be given as gifts whenever onewishes to.</p> -->
                                     </div>
                                     <?php $j=random_int(1,5); ?>
-                                    <figure class="image-box mb_35"><img src="assets/images/banner/<?php echo $j; ?>.jpg" alt=""></figure>
+                                    <figure class="image-box mb_35"><img src=<?php echo $data[$i][$image]; ?> alt=""></figure>
                                     <div class="text-box">
-                                        <p>Nous sommes une équipe de chercheurs passionnés du département de mathématiques et informatique de la faculté de science de l'Université de Douala. Nos travaux s'articulent autour de quatre axes de recherche interconnectés : Intelligence Artificielle Urbaine.</p>
-                                        <p>Nos recherches explorent comment l'IA peut optimiser la planification, la gestion et l'évolution intelligente des villes africaines du futur, en tenant compte des défis sociaux, économiques et environnementaux spécifiques à notre contexte. Ingénierie des Connaissances et Systèmes d'Interopérabilité.</p>
-                                        <p>Nous développons des technologies innovantes pour capturer, modéliser et partager efficacement les connaissances, permettant une collaboration fluide entre systèmes hétérogènes, dans le but de relever les défis de développement de notre région.</p>
-
-                                        <p>Nos recherches visent à concevoir des infrastructures, des processus et des interfaces permettant une communication efficace, sécurisée et durable entre les populations et leurs environnements, dans une optique de développement responsable et inclusif. </p>
-                                        <p>Nous explorons des méthodes avancées de modélisation, de simulation et d'optimisation pour relever les défis de la prise de décision dans des contextes hautement complexes, au service des communautés et des décideurs locaux.
-                                        Ensemble, nous œuvrons pour imaginer et construire un avenir plus durable, intelligent et résilient pour l'Afrique. </p>
+                                        <p><?= $contenu?></p>
+                                        
 
                                         <p> <b>Rejoignez-nous dans cette passionnante aventure !</b> </p>
                                     </div>
