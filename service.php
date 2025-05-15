@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <!-- Mirrored from azim.hostlin.com/Labout/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Apr 2025 15:01:22 GMT -->
 <head>
 <meta charset="utf-8">
@@ -131,11 +130,11 @@
                                     </div>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="index" class="">Intelligence Artificielle Urbaine</a></li>
-                                        <li><a href="service.php?id=0" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
-                                        <li><a href="service.php?id=1" class="">Systèmes durable et communication</a></li>
-                                        <li> <a href="service.php?id=2">Aide à la décision multicritère</a> </li>
-                                        <li><a href="service.php?id=3" class="">Conception de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="#" class="">Intelligence Artificielle Urbaine</a></li>
+                                        <li><a href="#" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
+                                        <li><a href="#" class="">Systèmes durable et communication</a></li>
+                                        <li> <a href="#">Aide à la décision multicritère</a> </li>
+                                        <li><a href="#" class="">Conception de Systèmes complexes et prise de décision</a></li>
                                         
                                         </ul>
                                     </div>
