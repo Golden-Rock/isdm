@@ -1,6 +1,17 @@
 <?php
     include('load_data.php');
-    var_dump($data[$i][$image]);
+        // recuperation de l'id dans l'url
+    $id = $_GET["id"];
+    echo $i;
+
+        // Vérification de l'ID
+    if (isset($id) && is_numeric($id)) {
+        $titre = $data[$id]['title'];
+        $contenu = $data[$id]['content'];
+    } else {
+        header('location: index');
+        exit;
+   }
     
 ?>
     
@@ -123,7 +134,7 @@
                                     </div>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="#" class="current">Présentation</a></li>
+                                        <li><a href="home" class="current">Présentation</a></li>
                                         <li><a href="isdm-team" class="">ISDM Team</a></li>
                                         </ul>
                                     </div>
@@ -193,8 +204,12 @@
                                         <h2><?= $titre ?></h2>
                                         <!-- <p>Welcome to the Labout Rare Chemistry Research Documentation Center, a hub exploration & discovery in these realm of uncommon & extraordinary chemical phenomena. An magnanis aliqua.bands needs no occasion too be gifted and can be given as gifts whenever onewishes to.</p> -->
                                     </div>
-                                    <?php $j=random_int(1,5); ?>
-                                    <figure class="image-box mb_35"><img src=<?php echo $data[$i][$image]; ?> alt=""></figure>
+                                    <?php $j=random_int(0,4); 
+                                        $url = "images/".$id."/".$j.".jpg";
+                                        echo $url;
+                                    ?>
+
+                                    <figure class="image-box mb_35"><img src=<?php echo $url;?> alt=""></figure>
                                     <div class="text-box">
                                         <p><?= $contenu?></p>
                                         

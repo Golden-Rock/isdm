@@ -16,10 +16,7 @@
                         entières afin de tester des politiques publiques avant leur mise en œuvre. Cependant, malgré ses promesses, l’intelligence artificielle urbaine soulève plusieurs défis
                         importants : la protection des données personnelles, le risque de biais algorithmiques, la fracturenumérique entre les citoyens, ou encore la gouvernance des plateformes technologiques. Une IAurbaine éthique et inclusive nécessite une forte implication des autorités locales, des citoyens, et des chercheurs.
             ",
-            'img1' => "images/0-1.jpg",
-            'img2' => "images/0-2.jpg",
-            'img3' => "images/0-3.jpg",
-            'img4' => "images/0-4.jpg"
+
         ],
         [
             'title' => "Ingénierie des connaissances et systèmes d'interopérabilité",
@@ -37,10 +34,7 @@
                         systèmes peuvent parler le même langage, même s’ils ont été conçus indépendamment. Cela est
                         fondamental dans des domaines comme l’IoT, la santé, l’agriculture intelligente, ou les systèmes
                         d’information urbains.",
-            'img1' => "images/1-2.jpg",
-            'img2' => "images/2-2.jpg",
-            'img3' => "images/3-2.jpg",
-            'img4' => "images/4-2.jpg"           
+          
         ],
         [
             'title' => "systèmes durables et communications",
@@ -54,10 +48,7 @@
                         respectueuses de l’environnement, adaptées aux enjeux du développement durable. Ces
                         systèmes sont particulièrement pertinents pour les pays en développement où les infrastructures
                         sont limitées, mais où les besoins en innovation technologique sont cruciaux. ",
-            'img1' => "images/1-3.jpg",
-            'img2' => "images/2-3.jpg",
-            'img3' => "images/3-3.jpg",
-            'img4' => "images/4-3.jpg"            
+          
         ],
         [
             'title' => "conception des systèmes et prise de décision",
@@ -75,10 +66,7 @@
                         énergétique. De même, en urbanisme, elle permet d’évaluer plusieurs scénarios d’aménagement
                         en fonction de critères techniques, environnementaux et sociaux. Ainsi, concevoir un système avec une capacité de prise de décision multicritère permet nonseulement d’augmenter la robustesse et l’efficience du système, mais aussi de renforcer laconfiance des utilisateurs et la légitimité des décisions prises dans des contextes
                         critiques ou sensibles.",
-            'img1' => "images/1-4.jpg",
-            'img2' => "images/2-4.jpg",
-            'img3' => "images/3-4.jpg",
-            'img4' => "images/4-4.jpg"             
+           
         ],
         [
             'title' => "jumeaux numériques et process mining",
@@ -93,26 +81,9 @@
                         d’optimiser les workflows, de détecter des anomalies en temps réel, de recommander des ajustements automatiques ou assistés, et d’améliorer la prise de décision basée sur les données. Par exemple, dans une usine intelligente, le process mining peut révéler des cycles de productionanormalement longs, et le jumeau numérique peut simuler différentes options de réorganisation
                         ou de maintenance prédictive pour améliorer les performances. Dans le domaine urbain, unjumeau numérique d’un quartier peut intégrer les flux de mobilité, d’énergie et de services
                         publics, pendant que le process mining permet d’optimiser les processus de gestion (intervention, circulation, consommation).",
-            'img1' => "images/1-5.jpg",
-            'img2' => "images/2-5.jpg",
-            'img3' => "images/3-5.jpg",
-            'img4' => "images/4-5.jpg"
         ]
     ];
 
-
-   // recuperation de l'id dans l'url
-   $i = $_GET["id"];
-
-    // Vérification de l'ID
-   if (isset($i) && is_numeric($i) && $i >= 0 && $i < count($data)) {
-       $titre = $data[$i]['title'];
-       $contenu = $data[$i]['content'];
-       $image = 'img'.rand(1,4);
-   } else {
-       header('location: index');
-       exit;
-   }
 
 
 ?> 
