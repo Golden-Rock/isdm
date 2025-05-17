@@ -132,8 +132,8 @@
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
                                         <li><a href="index" class="">Intelligence Artificielle Urbaine</a></li>
-                                        <li><a href="service.php?id=0" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
-                                        <li><a href="service.php?id=1" class="">Systèmes durable et communication</a></li>
+                                        <li><a href="service.php?id=0" class="<?= $i == 0 ? 'current':'';?>">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
+                                        <li><a href="service.php?id=1" class="current">Systèmes durable et communication</a></li>
                                         <li> <a href="service.php?id=2">Aide à la décision multicritère</a> </li>
                                         <li><a href="service.php?id=3" class="">Conception de Systèmes complexes et prise de décision</a></li>
                                         

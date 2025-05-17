@@ -1,6 +1,6 @@
 <?php
     include('load_data.php');
-    var_dump($data[$i][$image]);
+    // var_dump($data[$i][$image]);
     
 ?>
     
