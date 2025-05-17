@@ -119,7 +119,7 @@
                                     </div>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="#" class="current">Présentation</a></li>
+                                        <li><a href="home" class="current">Présentation</a></li>
                                         <li><a href="isdm-team" class="">ISDM Team</a></li>
                                         </ul>
                                     </div>
@@ -131,11 +131,11 @@
                                     </div>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="index" class="">Intelligence Artificielle Urbaine</a></li>
-                                        <li><a href="service.php?id=0" class="<?= $i == 0 ? 'current':'';?>">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
-                                        <li><a href="service.php?id=1" class="current">Systèmes durable et communication</a></li>
-                                        <li> <a href="service.php?id=2">Aide à la décision multicritère</a> </li>
-                                        <li><a href="service.php?id=3" class="">Conception de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="service.php?id=0" class="">Intelligence Artificielle Urbaine</a></li>
+                                        <li><a href="service.php?id=1" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
+                                        <li><a href="service.php?id=2" class="">Systèmes durable et communication</a></li>
+                                        <li><a href="service.php?id=3" class="">Conçeption de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="service.php?id=4" class="">jumeaux numériques et process mining</a></li>
                                         
                                         </ul>
                                     </div>
@@ -189,7 +189,7 @@
                                         <h2>Équipe de recherche d'Innovation Technologique Durable de l'Université de Douala</h2>
                                         <!-- <p>Welcome to the Labout Rare Chemistry Research Documentation Center, a hub exploration & discovery in these realm of uncommon & extraordinary chemical phenomena. An magnanis aliqua.bands needs no occasion too be gifted and can be given as gifts whenever onewishes to.</p> -->
                                     </div>
-                                    <?php $j=random_int(1,5); ?>
+                                    <?php $j=random_int(1,6); ?>
                                     <figure class="image-box mb_35"><img src="assets/images/banner/<?php echo $j; ?>.jpg" alt=""></figure>
                                     <div class="text-box">
                                         <p>Nous sommes une équipe de chercheurs passionnés du département de mathématiques et informatique de la faculté de science de l'Université de Douala. Nos travaux s'articulent autour de quatre axes de recherche interconnectés : Intelligence Artificielle Urbaine.</p>

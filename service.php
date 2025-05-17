@@ -1,6 +1,16 @@
 <?php
     include('load_data.php');
-    // var_dump($data[$i][$image]);
+        // recuperation de l'id dans l'url
+    $id = $_GET["id"];
+
+        // Vérification de l'ID
+    if (isset($id) && is_numeric($id)) {
+        $titre = $data[$id]['title'];
+        $contenu = $data[$id]['content'];
+    } else {
+        header('location: index');
+        exit;
+   }
     
 ?>
     
@@ -123,7 +133,7 @@
                                     </div>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="#" class="current">Présentation</a></li>
+                                        <li><a href="home" class="">Présentation</a></li>
                                         <li><a href="isdm-team" class="">ISDM Team</a></li>
                                         </ul>
                                     </div>
@@ -133,13 +143,14 @@
                                     <div class="widget-title mb_12">
                                         <h3>Axes de Récherche</h3>
                                     </div>
+                                    <?php $classe = "current";?>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="service.php?id=0" class="">Intelligence Artificielle Urbaine</a></li>
-                                        <li><a href="service.php?id=1" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
-                                        <li><a href="service.php?id=2" class="">Systèmes durable et communication</a></li>
-                                        <li><a href="service.php?id=3" class="">Conçeption de Systèmes complexes et prise de décision</a></li>
-                                        <li><a href="service.php?id=4" class="">jumeaux numériques et process mining</a></li>
+                                        <li><a href="service.php?id=0" class=<?php if ($id == 0){echo $classe;}?>>Intelligence Artificielle Urbaine</a></li>
+                                        <li><a href="service.php?id=1"class=<?php if ($id == 1){echo $classe;}?>>Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
+                                        <li><a href="service.php?id=2" class=<?php if ($id == 2){echo $classe;}?>>Systèmes durable et communication</a></li>
+                                        <li><a href="service.php?id=3" class=<?php if ($id == 3){echo $classe;}?>>Conçeption de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="service.php?id=4" class=<?php if ($id == 4){echo $classe;}?>>jumeaux numériques et process mining</a></li>
                                         
                                         </ul>
                                     </div>
@@ -193,8 +204,11 @@
                                         <h2><?= $titre ?></h2>
                                         <!-- <p>Welcome to the Labout Rare Chemistry Research Documentation Center, a hub exploration & discovery in these realm of uncommon & extraordinary chemical phenomena. An magnanis aliqua.bands needs no occasion too be gifted and can be given as gifts whenever onewishes to.</p> -->
                                     </div>
-                                    <?php $j=random_int(1,5); ?>
-                                    <figure class="image-box mb_35"><img src=<?php echo $data[$i][$image]; ?> alt=""></figure>
+                                    <?php $j=random_int(0,4); 
+                                        $url = "images/".$id."/".$j.".jpg";
+                                    ?>
+
+                                    <figure class="image-box mb_35"><img src=<?php echo $url;?> alt=""></figure>
                                     <div class="text-box">
                                         <p><?= $contenu?></p>
                                         
