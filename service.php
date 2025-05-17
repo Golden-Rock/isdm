@@ -2,7 +2,6 @@
     include('load_data.php');
         // recuperation de l'id dans l'url
     $id = $_GET["id"];
-    echo $i;
 
         // Vérification de l'ID
     if (isset($id) && is_numeric($id)) {
@@ -134,7 +133,7 @@
                                     </div>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="home" class="current">Présentation</a></li>
+                                        <li><a href="home" class="">Présentation</a></li>
                                         <li><a href="isdm-team" class="">ISDM Team</a></li>
                                         </ul>
                                     </div>
@@ -144,13 +143,14 @@
                                     <div class="widget-title mb_12">
                                         <h3>Axes de Récherche</h3>
                                     </div>
+                                    <?php $classe = "current";?>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="service.php?id=0" class="">Intelligence Artificielle Urbaine</a></li>
-                                        <li><a href="service.php?id=1" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
-                                        <li><a href="service.php?id=2" class="">Systèmes durable et communication</a></li>
-                                        <li><a href="service.php?id=3" class="">Conçeption de Systèmes complexes et prise de décision</a></li>
-                                        <li><a href="service.php?id=4" class="">jumeaux numériques et process mining</a></li>
+                                        <li><a href="service.php?id=0" class=<?php if ($id == 0){echo $classe;}?>>Intelligence Artificielle Urbaine</a></li>
+                                        <li><a href="service.php?id=1"class=<?php if ($id == 1){echo $classe;}?>>Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
+                                        <li><a href="service.php?id=2" class=<?php if ($id == 2){echo $classe;}?>>Systèmes durable et communication</a></li>
+                                        <li><a href="service.php?id=3" class=<?php if ($id == 3){echo $classe;}?>>Conçeption de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="service.php?id=4" class=<?php if ($id == 4){echo $classe;}?>>jumeaux numériques et process mining</a></li>
                                         
                                         </ul>
                                     </div>

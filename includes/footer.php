@@ -76,6 +76,14 @@
                                     <div class="newsletter-form">
                                         <img src="assets/images/logo_ud.jpeg" style="border-radius: 10px 0px 10px 0px;" height="80px" width="80px" alt=""> 
                                         <span><img src="assets/images/logo_fs.jpeg" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/Golden.png" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/logo-3.png" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/logo-4.jpg" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/logo-5.jpg" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>   
+                                        <span><img src="assets/images/logo-6.jpg" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/logo-7.jpg" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/logo-8.jpg" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/logo-9.jpg" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
                                     </div>
                                 </div>
                             </div>
