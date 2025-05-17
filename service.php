@@ -33,6 +33,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 
 <!-- Stylesheets -->
+ <base href="../">
 <link href="assets/css/font-awesome-all.css" rel="stylesheet">
 <link href="assets/css/flaticon.css" rel="stylesheet">
 <link href="assets/css/owl.css" rel="stylesheet">
@@ -146,11 +147,11 @@
                                     <?php $classe = "current";?>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="service.php?id=0" class=<?php if ($id == 0){echo $classe;}?>>Intelligence Artificielle Urbaine</a></li>
-                                        <li><a href="service.php?id=1"class=<?php if ($id == 1){echo $classe;}?>>Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
-                                        <li><a href="service.php?id=2" class=<?php if ($id == 2){echo $classe;}?>>Systèmes durable et communication</a></li>
-                                        <li><a href="service.php?id=3" class=<?php if ($id == 3){echo $classe;}?>>Conçeption de Systèmes complexes et prise de décision</a></li>
-                                        <li><a href="service.php?id=4" class=<?php if ($id == 4){echo $classe;}?>>jumeaux numériques et process mining</a></li>
+                                        <li><a href="service/0" class=<?php if ($id == 0){echo $classe;}?>>Intelligence Artificielle Urbaine</a></li>
+                                        <li><a href="service/1"class=<?php if ($id == 1){echo $classe;}?>>Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
+                                        <li><a href="service/2" class=<?php if ($id == 2){echo $classe;}?>>Systèmes durable et communication</a></li>
+                                        <li><a href="service/3" class=<?php if ($id == 3){echo $classe;}?>>Conçeption de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="service/4" class=<?php if ($id == 4){echo $classe;}?>>jumeaux numériques et process mining</a></li>
                                         
                                         </ul>
                                     </div>

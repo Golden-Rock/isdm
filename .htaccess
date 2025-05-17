@@ -5,3 +5,4 @@ RewriteEngine On
 
 #isdm team 
     RewriteRule ^isdm-team/([a-zA-Z0-9-]+)$       isdm-team.detail.php?mat=$1
+    RewriteRule ^service/([a-zA-Z0-9-]+)$       service.php?id=$1
