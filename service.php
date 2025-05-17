@@ -6,7 +6,9 @@
         // Vérification de l'ID
     if (isset($id) && is_numeric($id)) {
         $titre = $data[$id]['title'];
-        $contenu = $data[$id]['content'];
+        $texte1 = $data[$id]['texte1'];
+        $texte2 = $data[$id]['texte2'];
+        $texte3 = $data[$id]['texte3'];
     } else {
         header('location: index');
         exit;
@@ -210,7 +212,9 @@
 
                                     <figure class="image-box mb_35"><img src=<?php echo $url;?> alt=""></figure>
                                     <div class="text-box">
-                                        <p><?= $contenu?></p>
+                                        <p><?= $texte1?></p>
+                                        <p><?= $texte2?></p>
+                                        <p><?= $texte3?></p>
                                         
 
                                         <p> <b>Rejoignez-nous dans cette passionnante aventure !</b> </p>
