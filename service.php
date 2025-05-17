@@ -1,7 +1,21 @@
+<?php
+    include('load_data.php');
+        // recuperation de l'id dans l'url
+    $id = $_GET["id"];
 
+        // Vérification de l'ID
+    if (isset($id) && is_numeric($id)) {
+        $titre = $data[$id]['title'];
+        $contenu = $data[$id]['content'];
+    } else {
+        header('location: index');
+        exit;
+   }
+    
+?>
+    
 <!DOCTYPE html>
 <html lang="en">
-
 
 <!-- Mirrored from azim.hostlin.com/Labout/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Apr 2025 15:01:22 GMT -->
 <head>
@@ -19,6 +33,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 
 <!-- Stylesheets -->
+ <base href="../">
 <link href="assets/css/font-awesome-all.css" rel="stylesheet">
 <link href="assets/css/flaticon.css" rel="stylesheet">
 <link href="assets/css/owl.css" rel="stylesheet">
@@ -119,7 +134,7 @@
                                     </div>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="home" class="current">Présentation</a></li>
+                                        <li><a href="home" class="">Présentation</a></li>
                                         <li><a href="isdm-team" class="">ISDM Team</a></li>
                                         </ul>
                                     </div>
@@ -129,13 +144,14 @@
                                     <div class="widget-title mb_12">
                                         <h3>Axes de Récherche</h3>
                                     </div>
+                                    <?php $classe = "current";?>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="service/0" class="">Intelligence Artificielle Urbaine</a></li>
-                                        <li><a href="service/1" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
-                                        <li><a href="service/2" class="">Systèmes durable et communication</a></li>
-                                        <li><a href="service/3" class="">Conçeption de Systèmes complexes et prise de décision</a></li>
-                                        <li><a href="service/4" class="">jumeaux numériques et process mining</a></li>
+                                        <li><a href="service/0" class=<?php if ($id == 0){echo $classe;}?>>Intelligence Artificielle Urbaine</a></li>
+                                        <li><a href="service/1"class=<?php if ($id == 1){echo $classe;}?>>Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
+                                        <li><a href="service/2" class=<?php if ($id == 2){echo $classe;}?>>Systèmes durable et communication</a></li>
+                                        <li><a href="service/3" class=<?php if ($id == 3){echo $classe;}?>>Conçeption de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="service/4" class=<?php if ($id == 4){echo $classe;}?>>jumeaux numériques et process mining</a></li>
                                         
                                         </ul>
                                     </div>
@@ -174,7 +190,7 @@
                                                 <a href="">
                                                   <h3><i class="icon-65"></i>  Dr Justin MOSKOLAI</h3>
                                                 </a>
-                                                <span>Coordonateur de l'équipe de recherche ISDM</span>
+                                                <span>Directeur de l'equipe de recherche ISDM</span>
                                             </li>
                                             
                                         </ul>
@@ -186,19 +202,17 @@
                             <div class="service-details-content">
                                 <div class="content-one mb_65">
                                     <div class="text-box mb_35">
-                                        <h2>Équipe de recherche d'Innovation Technologique Durable de l'Université de Douala</h2>
+                                        <h2><?= $titre ?></h2>
                                         <!-- <p>Welcome to the Labout Rare Chemistry Research Documentation Center, a hub exploration & discovery in these realm of uncommon & extraordinary chemical phenomena. An magnanis aliqua.bands needs no occasion too be gifted and can be given as gifts whenever onewishes to.</p> -->
                                     </div>
-                                    <?php $j=random_int(1,6); ?>
-                                    <figure class="image-box mb_35"><img src="assets/images/banner/<?php echo $j; ?>.jpg" alt=""></figure>
-                                    <div class="text-box">
-                                        <p>Nous sommes une équipe de chercheurs passionnés du département de mathématiques et informatique de la faculté de science de l'Université de Douala. Nos travaux s'articulent autour de quatre axes de recherche interconnectés : Intelligence Artificielle Urbaine.</p>
-                                        <p>Nos recherches explorent comment l'IA peut optimiser la planification, la gestion et l'évolution intelligente des villes africaines du futur, en tenant compte des défis sociaux, économiques et environnementaux spécifiques à notre contexte. Ingénierie des Connaissances et Systèmes d'Interopérabilité.</p>
-                                        <p>Nous développons des technologies innovantes pour capturer, modéliser et partager efficacement les connaissances, permettant une collaboration fluide entre systèmes hétérogènes, dans le but de relever les défis de développement de notre région.</p>
+                                    <?php $j=random_int(0,4); 
+                                        $url = "images/".$id."/".$j.".jpg";
+                                    ?>
 
-                                        <p>Nos recherches visent à concevoir des infrastructures, des processus et des interfaces permettant une communication efficace, sécurisée et durable entre les populations et leurs environnements, dans une optique de développement responsable et inclusif. </p>
-                                        <p>Nous explorons des méthodes avancées de modélisation, de simulation et d'optimisation pour relever les défis de la prise de décision dans des contextes hautement complexes, au service des communautés et des décideurs locaux.
-                                        Ensemble, nous œuvrons pour imaginer et construire un avenir plus durable, intelligent et résilient pour l'Afrique. </p>
+                                    <figure class="image-box mb_35"><img src=<?php echo $url;?> alt=""></figure>
+                                    <div class="text-box">
+                                        <p><?= $contenu?></p>
+                                        
 
                                         <p> <b>Rejoignez-nous dans cette passionnante aventure !</b> </p>
                                     </div>
