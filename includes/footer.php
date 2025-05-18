@@ -76,6 +76,16 @@
                                     <div class="newsletter-form">
                                         <img src="assets/images/logo_ud.jpeg" style="border-radius: 10px 0px 10px 0px;" height="80px" width="80px" alt=""> 
                                         <span><img src="assets/images/logo_fs.jpeg" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/Goldenr.png" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/logo_3.png" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <br><br>
+                                        <span><img src="assets/images/logo_4.png" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/logo_5.png" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>   
+                                        <span><img src="assets/images/logo_6.png" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/logo_7.png" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <br><br>
+                                        <span><img src="assets/images/logo-8.jpg" style="border-radius: 10px 0px 10px 0px;" height="90px" width="90px" alt=""></span>
+                                        <span><img src="assets/images/logo_9.png" style="border-radius: 10px 0px 10px 0px; background-color: write;" height="90px" width="90px" alt=""></span>
                                     </div>
                                 </div>
                             </div>

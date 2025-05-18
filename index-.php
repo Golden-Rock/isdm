@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from azim.hostlin.com/Labout/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Apr 2025 14:54:01 GMT -->
+<!-- Mirrored from azim.hostlin.com/Labout/home by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Apr 2025 14:54:01 GMT -->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -91,7 +91,7 @@
         <div id="search-popup" class="search-popup">
             <div class="popup-inner">
                 <div class="upper-box clearfix">
-                    <figure class="logo-box pull-left"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                    <figure class="logo-box pull-left"><a href="home"><img src="assets/images/logo.png" alt=""></a></figure>
                     <div class="close-search pull-right"><span class="far fa-times"></span></div>
                 </div>
                 <div class="overlay-layer"></div>
@@ -122,7 +122,7 @@
             <div class="close-btn"><i class="fas fa-times"></i></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="home"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
                 <div class="contact-info">
                     <h4>Contact Info</h4>
@@ -134,11 +134,11 @@
                 </div>
                 <div class="social-links">
                     <ul class="clearfix">
-                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                        <li><a href="home"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="home"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="home"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="home"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="home"><span class="fab fa-youtube"></span></a></li>
                     </ul>
                 </div>
             </nav>
@@ -165,7 +165,7 @@
                                 <h2>Space Physics <span>Research Laboratory</span></h2>
                                 <p>Committed to knowledge dissemination, our laboratory is dedicated to educate next generation space scientists.</p>
                                 <div class="btn-box">
-                                    <a href="index.html" class="theme-btn">Get in Touch <span></span><span></span><span></span><span></span></a>
+                                    <a href="home" class="theme-btn">Get in Touch <span></span><span></span><span></span><span></span></a>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                                 <h2>Space Physics <span>Research Laboratory</span></h2>
                                 <p>Committed to knowledge dissemination, our laboratory is dedicated to educate next generation space scientists.</p>
                                 <div class="btn-box">
-                                    <a href="index.html" class="theme-btn">Get in Touch <span></span><span></span><span></span><span></span></a>
+                                    <a href="home" class="theme-btn">Get in Touch <span></span><span></span><span></span><span></span></a>
                                 </div>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
                                     <div class='r-hex'><div class='r-hex-inner'></div></div>
                                     <div class="icon"><i class="icon-4"></i></div>
                                 </div>
-                                <h3><a href="index.html">10+ Research Center</a></h3>
+                                <h3><a href="home">10+ Research Center</a></h3>
                                 <p>This institute focuses on understanding the molecular mechanisms of diseases into the developing new technologies.</p>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                                     <div class='r-hex'><div class='r-hex-inner'></div></div>
                                     <div class="icon"><i class="icon-5"></i></div>
                                 </div>
-                                <h3><a href="index.html">Free Pick Up & Delivery</a></h3>
+                                <h3><a href="home">Free Pick Up & Delivery</a></h3>
                                 <p>Free pick-up and delivery services are often offered by businesses to enhance customer convenience</p>
                             </div>
                         </div>
@@ -220,7 +220,7 @@
                                     <div class='r-hex'><div class='r-hex-inner'></div></div>
                                     <div class="icon"><i class="icon-6"></i></div>
                                 </div>
-                                <h3><a href="index.html">24/7 Support Assistant</a></h3>
+                                <h3><a href="home">24/7 Support Assistant</a></h3>
                                 <p>The support assistant is available 24 hours a day, every day of the week, ensuring continuous accessibility</p>
                             </div>
                         </div>
@@ -443,12 +443,12 @@
             <section class="clients-section">
                 <div class="outer-container">
                     <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
-                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
-                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
-                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
-                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
-                        <figure class="clients-logo"><a href="index.html"><img src="assets/images/clients/clients-6.png" alt=""></a></figure>
+                        <figure class="clients-logo"><a href="home"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
+                        <figure class="clients-logo"><a href="home"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
+                        <figure class="clients-logo"><a href="home"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
+                        <figure class="clients-logo"><a href="home"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
+                        <figure class="clients-logo"><a href="home"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
+                        <figure class="clients-logo"><a href="home"><img src="assets/images/clients/clients-6.png" alt=""></a></figure>
                     </div>
                 </div>
             </section>
@@ -603,7 +603,7 @@
                         </div>
                     </div>
                     <div class="more-btn centred pt_30">
-                        <a href="index.html" class="theme-btn btn-one">View All Events<span></span><span></span><span></span><span></span></a>
+                        <a href="home" class="theme-btn btn-one">View All Events<span></span><span></span><span></span><span></span></a>
                     </div>
                 </div>
             </section>
@@ -621,7 +621,7 @@
                                         <div class="bg-layer" style="background-image: url(assets/images/resource/cta-1.jpg);"></div>
                                         <span class="text">Community</span>
                                         <h2>Join The Community For Education</h2>
-                                        <a href="index.html" class="theme-btn">Join the Club<span></span><span></span><span></span><span></span></a>
+                                        <a href="home" class="theme-btn">Join the Club<span></span><span></span><span></span><span></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -631,7 +631,7 @@
                                         <div class="bg-layer" style="background-image: url(assets/images/resource/cta-2.jpg);"></div>
                                         <span class="text">Best Service</span>
                                         <h2>Looking for the best <br />Labatory Service</h2>
-                                        <a href="index.html" class="theme-btn">Join the Club<span></span><span></span><span></span><span></span></a>
+                                        <a href="home" class="theme-btn">Join the Club<span></span><span></span><span></span><span></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -658,9 +658,9 @@
                                     <div class="image-box">
                                         <figure class="image"><img src="assets/images/team/team-1.jpg" alt=""></figure>
                                         <ul class="social-links">
-                                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-skype"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-skype"></i></a></li>
                                         </ul>
                                     </div>
                                     <div class="lower-content">
@@ -676,9 +676,9 @@
                                     <div class="image-box">
                                         <figure class="image"><img src="assets/images/team/team-2.jpg" alt=""></figure>
                                         <ul class="social-links">
-                                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-skype"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-skype"></i></a></li>
                                         </ul>
                                     </div>
                                     <div class="lower-content">
@@ -694,9 +694,9 @@
                                     <div class="image-box">
                                         <figure class="image"><img src="assets/images/team/team-3.jpg" alt=""></figure>
                                         <ul class="social-links">
-                                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-skype"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-skype"></i></a></li>
                                         </ul>
                                     </div>
                                     <div class="lower-content">
@@ -712,9 +712,9 @@
                                     <div class="image-box">
                                         <figure class="image"><img src="assets/images/team/team-4.jpg" alt=""></figure>
                                         <ul class="social-links">
-                                            <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="index.html"><i class="fab fa-skype"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="home"><i class="fab fa-skype"></i></a></li>
                                         </ul>
                                     </div>
                                     <div class="lower-content">
@@ -795,5 +795,5 @@
     <script src="assets/js/script.js"></script>
 </body><!-- End of .page_wrapper -->
 
-<!-- Mirrored from azim.hostlin.com/Labout/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Apr 2025 14:55:46 GMT -->
+<!-- Mirrored from azim.hostlin.com/Labout/home by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Apr 2025 14:55:46 GMT -->
 </html>
