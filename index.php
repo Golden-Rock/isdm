@@ -211,6 +211,9 @@
             <!-- service-details end -->
 
 
+            <!-- partenaire -->
+             <?php include('includes/partners.php') ?>
+             <!-- end partner -->
             <!-- cta-style-two -->
            <?php include('includes/cta.php') ?>
             <!-- cta-style-two end -->

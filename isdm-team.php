@@ -160,7 +160,7 @@
                                                 <a href="">
                                                   <h3><i class="icon-65"></i>  Dr Justin MOSKOLAI</h3>
                                                 </a>
-                                                <span>Directeur de l'equipe de recherche ISDM</span>
+                                                <span>Coordonnateur de l'equipe de recherche ISDM</span>
                                             </li>
                                             
                                         </ul>
@@ -173,7 +173,7 @@
                             <div class="auto-container">
                                 <div class="sec-title mb_70 sec-title-animation animation-style2">
                                     <span class="sub-title mb_20 title-animation">Team Members</span>
-                                    <h2 class="title-animation">Our Expert Scientists</h2>
+                                    <h2 class="title-animation">Équipe ISDM</h2>
                                 </div>
                                 <div class="row clearfix">
                                     <?php 
@@ -218,7 +218,9 @@
         <!-- main-content end -->
 
 
-
+        <!-- main-footer -->
+        <?php include('includes/footer.php') ?>
+        <!-- main-footer end -->
 
         <!--Scroll to top-->
         <div class="scroll-to-top">

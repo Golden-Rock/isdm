@@ -1,4 +1,4 @@
-<?php include('includes/usefull_file.php'); ?>
+
 <!doctype html>
 <html class="no-js " lang="en">
 

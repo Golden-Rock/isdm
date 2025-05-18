@@ -59,6 +59,7 @@
                 title_member,
                 password,
                 is_isdm_team,
+                user_profil,
                 time_register,
                 date_register) 
 
@@ -72,6 +73,7 @@
                 :title_member,
                 :password,
                 :is_isdm_team,
+                :user_profil,
                 :time_register,
                 :date_register
                 )");
@@ -87,6 +89,7 @@
                     'title_member' => $title_member,
                     'password' => $password,
                     'is_isdm_team' => $is_isdm_team,
+                    'user_profil' => $user_profil,
                     'time_register' => $time_register,
                     'date_register' => $date_register
                     ));
@@ -94,9 +97,6 @@
            
 
                 $mat_member = $mat_member;
-                $mat_parent =$_SESSION['mat_member'];
-
-                $destination_notif='admin';
                 $lien_redirection='all_isdm_team';
                 $objet = "Nouvelle Inscription";
                 $corps_notif = "Dr. <b>$first_name</b> vient de s'inscrire!" ;
