@@ -131,11 +131,11 @@
                                     </div>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="pages/0" class="">Intelligence Artificielle Urbaine</a></li>
-                                        <li><a href="pages/1" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
-                                        <li><a href="pages/2" class="">Systèmes durable et communication</a></li>
-                                        <li><a href="pages/3" class="">Conçeption de Systèmes complexes et prise de décision</a></li>
-                                        <li><a href="pages/4" class="">jumeaux numériques et process mining</a></li>
+                                        <li><a href="module/0" class="">Intelligence Artificielle Urbaine</a></li>
+                                        <li><a href="module/1" class="">Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
+                                        <li><a href="module/2" class="">Systèmes durable et communication</a></li>
+                                        <li><a href="module/3" class="">Conçeption de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="module/4" class="">jumeaux numériques et process mining</a></li>
                                         
                                         </ul>
                                     </div>

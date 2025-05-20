@@ -4,5 +4,5 @@ RewriteEngine On
     RewriteRule ^isdm-team$                isdm-team.php
 
 #isdm team 
-    RewriteRule ^isdm-team/([a-zA-Z0-9-]+)$       isdm-team.detail.php?mat=$1
-    RewriteRule ^pages/([a-zA-Z0-9-]+)$       pages.php?id=$1
+    RewriteRule ^isdm-team/([a-zA-Z0-9-]+)$         isdm-team.detail.php?mat=$1
+    RewriteRule ^module/([a-zA-Z0-9-]+)$            module.php?id=$1
