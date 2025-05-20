@@ -1,10 +1,10 @@
 <?php
-    include('load_data.php');
         // recuperation de l'id dans l'url
-    $id = $_GET["id"];
-
+        $id = $_GET["id"];
+        
         // Vérification de l'ID
     if (isset($id) && is_numeric($id)) {
+        include('load_data.php');
         $titre = $data[$id]['title'];
         $contenu = $data[$id]['content'];
     } else {
@@ -147,11 +147,11 @@
                                     <?php $classe = "current";?>
                                     <div class="widget-content">
                                         <ul class="category-list clearfix">
-                                        <li><a href="service/0" class=<?php if ($id == 0){echo $classe;}?>>Intelligence Artificielle Urbaine</a></li>
-                                        <li><a href="service/1"class=<?php if ($id == 1){echo $classe;}?>>Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
-                                        <li><a href="service/2" class=<?php if ($id == 2){echo $classe;}?>>Systèmes durable et communication</a></li>
-                                        <li><a href="service/3" class=<?php if ($id == 3){echo $classe;}?>>Conçeption de Systèmes complexes et prise de décision</a></li>
-                                        <li><a href="service/4" class=<?php if ($id == 4){echo $classe;}?>>jumeaux numériques et process mining</a></li>
+                                        <li><a href="pages/0" class=<?php if ($id == 0){echo $classe;}?>>Intelligence Artificielle Urbaine</a></li>
+                                        <li><a href="pages/1"class=<?php if ($id == 1){echo $classe;}?>>Ingénierie des Connaissances et Systèmes d'Interopérabilité</a></li>
+                                        <li><a href="pages/2" class=<?php if ($id == 2){echo $classe;}?>>Systèmes durable et communication</a></li>
+                                        <li><a href="pages/3" class=<?php if ($id == 3){echo $classe;}?>>Conçeption de Systèmes complexes et prise de décision</a></li>
+                                        <li><a href="pages/4" class=<?php if ($id == 4){echo $classe;}?>>jumeaux numériques et process mining</a></li>
                                         
                                         </ul>
                                     </div>
